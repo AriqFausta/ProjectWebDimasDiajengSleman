@@ -118,7 +118,7 @@
                                 <div class="mb-3">
                                     <label class="form-label">Icon</label>
                                     <div class="bg-blue-dark p-5 rounded-3 align-content-center d-flex justify-content-center position-relative" id="iconPreview{{ $loop->index }}">
-                                        <img src="{{ asset('image/' . $item->icon) }}" alt="" id="previewImg{{ $loop->index }}" style="max-width: 100%; max-height: 150px;">
+                                        <img src="{{ asset('image/icon/' . $item->icon) }}" alt="" id="previewImg{{ $loop->index }}" style="max-width: 100%; max-height: 150px;">
                                     </div>
                                 </div>
                             </div>
