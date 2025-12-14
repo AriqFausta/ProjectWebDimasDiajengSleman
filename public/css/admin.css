@@ -171,6 +171,10 @@
     margin-bottom: 30px;
 }
 
+.tombol-upload {
+    background-color: #233046;
+}
+
 .tombol-upload:hover {
     background-color: #ffc107;
     color: white;
